@@ -1,0 +1,46 @@
+                                                                                        HTML
+<html>
+ <body>
+   <head>
+            <link rel = "stylesheet" href="style.css"/>
+        </head>
+<header>
+<img src="https://learn.logikaschool.com/uploads/2021/01/logo_0_1611261359.svg"/>
+</header>
+<main>
+<h2 style="text-align:center">Шевченки</h2>
+<img src="https://learn.logikaschool.com/uploads/2021/01/happy-family-2284698_1920%201_0_1611261360.png"/>
+<img src="https://learn.logikaschool.com/uploads/2021/01/children-817368_1920%201_0_1611261360.png"/>
+<img src="https://learn.logikaschool.com/uploads/2021/01/house-1158139_1920%201_0_1611261360.png"/>
+<h1>Ми - сім'я Шевченків<img src="https://learn.logikaschool.com/uploads/2021/01/smile_0_1611261360.svg"/></h1>
+<ul>
+<li>Тато Алекс - інженер,архітектор</li>
+<li>Мама Наталя - ландшафтний дизайнер,флорист</li>
+<li>Діти Джеймс і Альона - фотографи - початківці</li>
+<li>Пес Джон - головний у веселій команді</li>
+</ul>
+
+</main>
+<footer>
+   <p>Ел.пошта:</p>
+<p>Телефон:</p>
+</footer>
+ </body>
+</html>
+                                                                                            CSS                            
+body {
+    font-family: sans-serif;
+}
+header{
+    background-color:#0776A0;
+}
+footer{
+ background-color:#0776A0;
+ color: white;    
+}
+main h1{
+ color: orange  
+}
+ul{
+    list-style:url(https://learn.logikaschool.com/uploads/2021/01/Arrow%201_0_1611261359.svg);
+}
